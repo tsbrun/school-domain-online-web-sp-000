@@ -7,6 +7,6 @@ class School
   end
 
   def initialize
-    @roster
+    @roster = {}
   end
 end
