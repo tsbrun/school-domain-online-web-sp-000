@@ -1,10 +1,14 @@
 require 'pry'
 
 class School
+  attr_reader :roster
 
   def initialize(name)
     @name = name
   end
 
-  ROSTER = {}
+  def roster
+    @roster = {}
+  end
+    
 end
