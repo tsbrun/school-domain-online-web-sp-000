@@ -7,8 +7,4 @@ class School
   end
 
   ROSTER = {}
-
-  def initialize
-    @roster = {}
-  end
 end
