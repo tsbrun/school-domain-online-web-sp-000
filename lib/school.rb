@@ -6,6 +6,8 @@ class School
     @name = name
   end
 
+  ROSTER = {}
+
   def initialize
     @roster = {}
   end
